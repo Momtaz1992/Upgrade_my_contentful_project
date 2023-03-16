@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+       background: linear-gradient(to right,gray,black);
+       font-size: 22px;
+       font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+       font-weight: 300;
+       margin: 2;
+       padding: 5px;
+       color:white;
+}
+.header {
+       text-align: center;
+       margin: 60px 0;
+       font-size: 40px;
+     }
+.search{
+       text-align: center;
+       margin: 60px 0;
+       color: #003126;
+}
+.recipe-list {
+display: grid;
+grid-template-columns: 1fr 1fr;
+grid-gap: 20px 60px;
+padding: 30px;
+}
+.card {
+       transform: rotateZ(-5deg);
+}
+
+.content {
+       background: #aaeddf;
+       box-shadow: 1px 3px 5px #1bf0c2;
+       margin: 0;
+       position: relative;
+       top: -40px;
+       left: -20px;
+     }
+.info {
+       padding: 16px;
+     }
+.info h4 {
+       margin: 4px 0;
+       text-transform: uppercase;
+     }
+.info p {
+       margin: 0;
+       color: white;
+     }
+.actions {
+       margin-top: 20px;
+       display: flex;
+       justify-content: flex-end;
+     }
+.actions a {
+       color: #fff;
+       background: #003126;
+       padding: 16px 24px;
+       text-decoration: none;
+     }
