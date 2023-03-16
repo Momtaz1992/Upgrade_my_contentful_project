@@ -3,6 +3,8 @@ import React, { useEffect, useState } from "react";
 import Recipe from "./Recipe";
 import "./style.css";
 import SearchBar from "./SearchBar";
+import Footer from "./Footer";
+import NavBar from "./NavBar";
 
 // Creating a Contentful client using the provided credentials
 const client = createClient({
@@ -31,7 +33,9 @@ console.log(data)
   // Rendering the app's UI
   return (
     <>
-      <h1 className="header">Feel Free to try our Recipes</h1>
+    <NavBar />
+
+      <h1 className="header">Find a Recipes</h1>
       <div className="search">
         {/* Rendering the SearchBar component */}
         <SearchBar client={client} />
@@ -42,6 +46,7 @@ console.log(data)
           <Recipe key={item.sys.id} item={item} />
         ))}
       </div>
+      <Footer />
     </>
   );
 }
