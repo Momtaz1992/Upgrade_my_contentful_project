@@ -37,7 +37,6 @@ console.log(data)
 
       <h1 className="header">Find a Recipes</h1>
       <div className="search">
-        {/* Rendering the SearchBar component */}
         <SearchBar client={client} />
       </div>
       <div className="recipe-list">

@@ -32,7 +32,7 @@ function SearchBar({ client }) {
           <h2>{item.fields.title}</h2>
           <details>
           <summary>Method</summary>
-          <img src={item.fields.thumbnail.fields.file.url} width="350" height="250" />
+          <img src={item.fields.featuredImages.fields.file.url} width="350" height="250" />
           <ul>
             {item.fields.methods}
           </ul>
