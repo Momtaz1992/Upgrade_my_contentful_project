@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Upgrade_my_contentful_project/static/css/main.31fe34b1.css",
+    "main.js": "/Upgrade_my_contentful_project/static/js/main.2748853b.js",
+    "index.html": "/Upgrade_my_contentful_project/index.html",
+    "main.31fe34b1.css.map": "/Upgrade_my_contentful_project/static/css/main.31fe34b1.css.map",
+    "main.2748853b.js.map": "/Upgrade_my_contentful_project/static/js/main.2748853b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.31fe34b1.css",
+    "static/js/main.2748853b.js"
+  ]
+}
