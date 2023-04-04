@@ -4,7 +4,7 @@ export default function Footer() {
        const dateElement = document.getElementById("date");
 const currentDate = new Date();
 const year = currentDate.getFullYear();
-dateElement.innerHTML = `Today is ${currentDate.toDateString()}`;
+/* dateElement.innerHTML = `Today is ${currentDate.toDateString()}`; */
   return (
        <footer>
        <div class="container">
